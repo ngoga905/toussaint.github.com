@@ -45,7 +45,8 @@ html {
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: transparent
+  -webkit-tap-highlight-color: transparent;
+  background: #c8d1c5
 }
 
 article,
@@ -11421,7 +11422,11 @@ a.text-dark:hover {
   --paper: #f1f0e9;
   --accent: #d34f36;
   --line: #c8c8bd;
-  margin: 0;
+  width: min(1050px, calc(100% - 64px));
+  min-height: calc(100vh - 64px);
+  margin: 32px auto;
+  border: 1px solid #b7b8ad;
+  box-shadow: 0 18px 50px rgba(23, 34, 29, .12);
   color: var(--ink);
   background: var(--paper);
   font-family: Georgia, "Times New Roman", serif;
@@ -11729,6 +11734,12 @@ a.text-dark:hover {
 }
 
 @media (max-width: 760px) {
+  .portfolio-page {
+    width: calc(100% - 16px);
+    min-height: calc(100vh - 16px);
+    margin: 8px auto;
+  }
+
   .site-header,
   .hero,
   .work-section,
