@@ -1,69 +1,100 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Toussaint Turatsinze, IT Manager.">
     <link href="styles/main.css" rel="stylesheet">
-    <title>My Portfolio: Insert name here</title>
+    <title>Toussaint Turatsinze | IT Manager</title>
 </head>
 
-<body>
-    <!-- Start of about me section-->
-    <center>
-        <h1>My Portfolio - Updated</h1>
-        <i>Eng. Clovis Wanziguya III</i>
-    </center>
-    <div class="row">
-        <div class="col-lg-2">
+<body class="portfolio-page">
+    <header class="site-header">
+        <a class="brand" href="#home">TT<span>.</span></a>
+        <nav class="site-nav" aria-label="Main navigation">
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a class="contact-link" href="mailto:ngogatoussaint@gmail.com">Contact</a>
+        </nav>
+    </header>
 
-        </div>
-        <div class="col-lg-6">
-            <p>
-                <!-- Section to highlight about me-->
-                <br>
-                I am a highly motivated and results-driven
-                professional with a strong background in
-                Software development. With a passion for
-                knowledge sharing, I have developed expertise in
-                [key skills or areas of specialization].
-                My experience includes [briefly mention relevant experience or achievements]. I am committed to
-                continuous learning and growth, and I thrive in collaborative environments where I can
-                contribute to
-                innovative projects.
-            </p>
-        </div>
-        <div class="col-lg-4">
-            <div class="profile-img">
-                <img src="images/avatar.png" style="width: 40%; height: auto;" alt="Profile Image">
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">IT Manager</p>
+                <h1>Toussaint<br>Turatsinze</h1>
+                <p class="intro">I deliver secure, reliable IT environments and practical digital systems that help organizations work with confidence.</p>
+                <div class="contact-list" aria-label="Contact details">
+                    <a href="tel:+250788712526">
+                        <span class="contact-label">Phone</span>
+                        <span>0788 712 526</span>
+                    </a>
+                    <a href="mailto:ngogatoussaint@gmail.com">
+                        <span class="contact-label">Email</span>
+                        <span>ngogatoussaint@gmail.com</span>
+                    </a>
+                </div>
             </div>
-        </div>
-    </div>
-    <!-- End of about me section-->
 
-    <!-- Start of projects section -->
-    <div class="row">
-        <div class="col-lg-2">
-        </div>
-        <div class="col-lg-4">
-            <h3>Student Attendance System</h3>
-            <ul>
-                <li><b>Description</b>: Enhancing effectiveness in capturing student attendance using bluetooth
-                </li>
-                <li><a href="#">Deliverable: A fully fledged student attendance system</a></li>
-                <li><a href="#">Duration: May 2024 - August 2024</a></li>
-                <li><a href="#">Role played: Developer</a></li>
-                <li><a href="#">Status: Completed</a></li>
-                <li><a href="#">Budget: FRW 5,000,000</a></li>
-            </ul>
-        </div>
-        <div class="col-lg-4">
-            <h2>Projects 2</h2>
-            <ul>
-                <li><a href="project1.html">Project 1: [Project Name]</a></li>
-                <li><a href="project2.html">Project 2: [Project Name]</a></li>
-                <li><a href="project3.html">Project 3: [Project Name]</a></li>
-            </ul>
-        </div>
-    </div>
-    <!-- End of projects section -->
+            <figure class="portrait-wrap">
+                <img src="images/pic.jpeg" alt="Toussaint Turatsinze" class="portrait">
+                <figcaption>Based in Rwanda</figcaption>
+            </figure>
+        </section>
+
+        <section class="work-section" id="projects">
+            <div class="section-heading">
+                <p class="section-number">01</p>
+                <div>
+                    <p class="eyebrow">Selected work</p>
+                    <h2>Projects &amp; experience</h2>
+                </div>
+            </div>
+
+            <article class="project">
+                <p class="project-number">01</p>
+                <div>
+                    <h3>Microsoft 365 Environment Deployment &amp; Security Hardening</h3>
+                    <p>Led the deployment and administration of Microsoft 365 services, implementing security controls and best practices aligned with CIS Controls v8 to enhance the organization's cybersecurity posture.</p>
+                </div>
+                <span class="project-tag">Cloud security</span>
+            </article>
+
+            <article class="project">
+                <p class="project-number">02</p>
+                <div>
+                    <h3>Whistleblowing System Implementation</h3>
+                    <p>Designed and coordinated the implementation of a whistleblowing platform, including a WhatsApp Business channel for secure and confidential reporting.</p>
+                </div>
+                <span class="project-tag">Digital systems</span>
+            </article>
+        </section>
+
+        <section class="certification-section" id="certifications">
+            <div class="section-heading">
+                <p class="section-number">02</p>
+                <div>
+                    <p class="eyebrow">Professional development</p>
+                    <h2>Certification</h2>
+                </div>
+            </div>
+
+            <div class="certification">
+                <div class="cert-badge" aria-hidden="true">AZ</div>
+                <div class="cert-details">
+                    <p>Microsoft Certified</p>
+                    <h3>Azure Fundamentals (AZ-900)</h3>
+                </div>
+                <p class="cert-year"><span>Obtained</span>2025</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Toussaint Turatsinze</p>
+        <a href="mailto:ngogatoussaint@gmail.com">Let's work together <span aria-hidden="true">&rarr;</span></a>
+    </footer>
 </body>
 
 </html>
